@@ -12,18 +12,18 @@ int main()
 
 	vector<int> vec;
 
-	/*for(int i = 0;i<N;i++)
+	while(N--)
 	{
 		int temp;
 		cin >> temp;
 		vec.push_back(temp);
-	}*/
+	}
 
-	//sort(vec.begin(), vec.end());
+	sort(vec.begin(), vec.end());
 
-	/*for (auto e : vec)
-		cout << e << endl;
-	cout << endl;*/
-	
+	for (auto e : vec)
+		cout << e <<"\n";
+	cout << endl;
+
 	return 0;
 }
